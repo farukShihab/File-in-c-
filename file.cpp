@@ -3,10 +3,6 @@
 using namespace std;
 int main()
 {
-    std::ios_base::sync_with_stdio;std::cin.tie(NULL);std::cout.tie(NULL);
-
-
-
     FILE *fp=fopen("data.txt","r");
     FILE *fpO=fopen("Odd.txt","w");
     FILE *fpE=fopen("Even.txt","w");
