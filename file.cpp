@@ -18,5 +18,8 @@ int main()
             else fprintf(fpO,"%d ",n);
         }
     }
+    fclose(fp);
+    fpclose(fpO);
+    fclosed(fpE);
     return 0;
 }
